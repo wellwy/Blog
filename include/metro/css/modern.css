@@ -2970,11 +2970,14 @@ License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
   column-gap: 20px;
 }
 .metrouicss .page {
-  position: relative;
+/*  position: relative;
   height: 100%;
   min-height: 100%;
   width: 100%;
-  *zoom: 1;
+  *zoom: 1;*/
+  width: 940px ;
+  margin: auto;
+  background-color: #fff;
 }
 .metrouicss .page:before,
 .metrouicss .page:after {
