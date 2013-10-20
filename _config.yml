@@ -1,3 +1,10 @@
-name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+permalink: /:categories/:year/:month/:day/:title 
+title : xx
+author :
+  name : 会飞de树
+  email : wellwy@gmail.com
+  github : wellwy
+  twitter : 
+  feedburner : 
