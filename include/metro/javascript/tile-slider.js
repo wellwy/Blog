@@ -2,7 +2,6 @@ $.easing.doubleSqrt = function(t, millisecondsSince, startValue, endValue, total
     var res = Math.sqrt(Math.sqrt(t));
     return res;
 };
-
 (function($) {
 
     $.tileBlockSlider = function(element, options) {
