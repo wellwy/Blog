@@ -10,4 +10,5 @@ author :
   feedburner : 
 
 
-includepath : /include
+
+basepath : http://wellwy.github.io/Blog
