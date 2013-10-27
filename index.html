@@ -17,7 +17,7 @@ title: Posts List
 				
 	            
     			{% for post in site.posts %}
-      			<li onclick="location.href = '{{ post.url }}';">
+      			<li onclick="location.href = '{{ site.basepath }}{{ post.url }}';">
       				
       				<div class="icon">
 	                	<img class="icon-book"  style="content: '\e00d';"/></i>
