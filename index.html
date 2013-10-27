@@ -17,10 +17,10 @@ title: Posts List
 				
 	            
     			{% for post in site.posts %}
-      			<li onkeypress="function(){location.href = '{{ post.url }}';}">
+      			<li onclick="location.href = '{{ post.url }}';">
       				
       				<div class="icon">
-	                	<img class="icon-book"/>
+	                	<img class="icon-book"  style="content: '\e00d';"/></i>
 	            	</div>
 	            	<div class="data">
 		                <h4>{{ post.title }}</h4>
@@ -35,4 +35,6 @@ title: Posts List
       	</div>
     </div>
 </div>
+
+
 
