@@ -1,5 +1,9 @@
 ---
-published: false
+layout: post_m
+title:  "Welcome to Jekyll!2"
+date:   2013-10-19 22:23:10
+categories: jekyll
+summary: This is a one line summary. 这是一个一句话的简述。
 ---
 
 ## A New Post
