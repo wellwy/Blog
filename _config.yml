@@ -9,4 +9,5 @@ author :
   twitter : 
   feedburner : 
 
-baseurl : /Blog/
+baseurl : /Blog
+homepage : /index.html
