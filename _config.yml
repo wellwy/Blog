@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: rdiscount
 pygments: true
 permalink: :categories/:year/:month/:day/:title 
 title : 会飞de树's Blog
