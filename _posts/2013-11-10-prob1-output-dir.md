@@ -26,5 +26,21 @@ see defualt package tree:
 
 ##Resolutions
 
+Resolution is very easy.
+
+- Open `pom.xml`([sample pom][]).
+- Find the `build` Node.
+- Add `<sourceDirectory>src</sourceDirectory>` in `build`;
+- Rebuild!
+
+Finally Like This:
+	<build>
+		<finalName>output</finalName>
+		<outputDirectory>war/WEB-INF/classes</outputDirectory>
+		<sourceDirectory>src</sourceDirectory>
+		<resources>
+
+
 [problem_snap]:{{site.graphs}}/gae/prob/prob01_outputdir_01.jpg
 [default_package_tree]:{{site.graphs}}/gae/prob/prob01_default_package.jpg
+[sample pom]:http://
