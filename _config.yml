@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-permalink: :categories/:year/:month/:day/:title 
+permalink: :categories/:sub/:year/:month/:day/:title 
 title : 会飞de树's Blog
 author :
   name : 会飞de树
