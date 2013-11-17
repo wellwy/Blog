@@ -3,7 +3,7 @@ layout: post_m
 title:  "Prob01.Output Directory Error"
 date:   2013-11-10 16:45:27
 categories: gae
-sub : Prob01
+sub : Prob
 summary: solbe"The output directory for the project should be set to /wellwy-demo/war/WEB-INF/classes"
 ---
 
@@ -30,15 +30,16 @@ Resolution is very easy.
 
 - Open `pom.xml`([sample pom][]).
 - Find the `build` Node.
-- Add `<sourceDirectory>src</sourceDirectory>` in `build`;
+- Add `<sourceDirectory>src</sourceDirectory>` in Node `build`;
 - Rebuild!
 
 Finally Like This:
-	<build>
-		<finalName>output</finalName>
-		<outputDirectory>war/WEB-INF/classes</outputDirectory>
-		<sourceDirectory>src</sourceDirectory>
-		<resources>
+
+    <build>
+        <finalName>output</finalName>
+        <outputDirectory>war/WEB-INF/classes</outputDirectory>
+        <sourceDirectory>src</sourceDirectory>
+        <resources>
 
 
 [problem_snap]:{{site.graphs}}/gae/prob/prob01_outputdir_01.jpg
