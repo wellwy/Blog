@@ -1,24 +1,22 @@
 ---
 layout: metro_layout
 ---
-<div class="page secondary" >
-	<div class="page-header">
-        <div class="page-header-content">
-            <h1> {{ page.title }} <small>{{ page.date | date_to_string }}</small></h1>
-            <a class="back-button big page-back" href="{{ site.baseurl }}{{site.homepage}}"></a>
-        </div>
-    </div>
-	<div class="page-region">
-		<div class="page-region-content">
-        	<p>
-                <!-- {{ content | toc }} -->
-                <h2>Summary</h2>
-                <p>
-                {{page.summary}}
-                </p>
-				{{ content }}
-			</p>
-      	</div>
+<div class="page-region" >
+    <div class="page-region-content">
+
+        <h1>
+            <a  href="{{ site.baseurl }}{{site.homepage}}">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            {{ page.title }} 
+            <small class="on-right">{{ page.date | date_to_string }}</small>
+        </h1>
+        <!-- {{ content | toc }} -->
+        <h2>Summary</h2>
+        <p>
+        {{page.summary}}
+        </p>
+		{{ content }}
     </div>
 </div>
 
