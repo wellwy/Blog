@@ -10,28 +10,27 @@ title: Posts List
         </div>
     </div>
 	<div class="page-region">
-		<div class="page-region-content">
-        	
-			<ul class="listview fluid">
-
-				
-	            
-    			{% for post in site.posts limit 10 %}
-      			<li onclick="location.href = '{{site.baseurl}}{{ post.url }}';">
-      				
-      				<div class="icon">
-	                	<img class="icon-book"  style="content: '\e00d';"/></i>
-	            	</div>
-	            	<div class="data">
-		                <h4>{{ post.title }}</h4>
-		                <p>{{ post.summary }}</p>
-		                <p>{{ post.date | date_to_string }}</p>
-		            </div>
-			        
-			    </li>
-      			<!-- <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
-    			{% endfor %}
-    		</ul>
+		<div class="page-region-content">       	
+			<div class="listview-outlook" data-role="listview">
+				{% for category in site.categories %} 
+		    		<div class="list-group ">
+		        		<a href="" class="group-title">{{ category[0] | join: "/" }}</a>
+		        		<div class="group-content">
+			        		{% for post in category[1] limit 10 %}
+			        			<a class="list" href="{{site.baseurl}}{{ post.url }}">
+                                    <div class="list-content">
+                                        <span class="list-title">{{ post.title }}</span>
+                                        <span class="list-subtitle">{{ post.date | date_to_string }}</span>
+                                        <span class="list-remark">{{ post.summary }}</span>
+                                    </div>
+                                </a>
+				        	{% endfor %}
+			        	</div>
+		    		</div>
+		    	{% endfor %}
+			</div>
       	</div>
     </div>
+</ul>
 </div>
+<script src="{{ site.baseurl }}/include/metro/js/metro/metro-listview.js"></script>
