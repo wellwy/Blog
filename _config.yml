@@ -13,7 +13,7 @@ author :
 baseurl : /Blog
 homepage : /index.html
 graphs : /Blog/include/graphs
-static : http://wellwy.github.io/static
+static_metro : http://wellwy.github.io/static/include/metro
 
 comments: true
 googleAnalytics : true
