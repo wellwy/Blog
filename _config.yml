@@ -2,7 +2,7 @@ markdown: rdiscount
 pygments: true
 #permalink: :categories/:year/:month/:day/:title 
 permalink: :categories/:title 
-title : 会飞de树's Blog
+title : 会飞de树's GAE
 author :
   name : 会飞de树
   email : wellwy@gmail.com
@@ -10,9 +10,9 @@ author :
   twitter : 
   feedburner : 
 
-baseurl : /Blog
+baseurl : /gae
 homepage : /index.html
-graphs : /Blog/include/graphs
+graphs : /gae/include/graphs
 static_metro : http://wellwy.github.io/static/include/metro
 
 comments: true
