@@ -3,7 +3,7 @@ layout: post_m
 title:  "实例讲解C++中CopyFileEx函数的简单用法"
 date:   2011-02-12 15:38:49
 categories: Win32
-summary: 
+description: 
 src : 
 ---
 #说明

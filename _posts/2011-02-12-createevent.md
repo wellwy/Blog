@@ -3,7 +3,7 @@ layout: post_m
 title:  "线程中CreateEvent和SetEvent及WaitForSingleObject的用法"
 date:   2011-02-12 15:51:29
 categories: Win32
-summary: 
+description: 
 src : 
 ---
 

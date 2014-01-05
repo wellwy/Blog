@@ -3,7 +3,7 @@ layout: post_m
 title:  "WPARAM与LPARAM的区别"
 date:   2011-02-12 15:51:29
 categories: Win32
-summary: 
+description: 
 src : http://www.cppblog.com/expter/archive/2008/12/24/70213.html
 ---
 

@@ -3,7 +3,7 @@ layout: post_m
 title:  "C++ 续行符"
 date:   2011-02-12 15:26:57
 categories: Win32
-summary: 
+description: 
 src : 
 ---
 

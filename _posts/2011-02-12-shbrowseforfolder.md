@@ -3,7 +3,7 @@ layout: post_m
 title:  "SHBrowseForFolder函数"
 date:   2011-02-12 16:47:01
 categories: Win32
-summary: 文件目录选择函数SHBrowseForFolder()及其回调函数
+description: 文件目录选择函数SHBrowseForFolder()及其回调函数
 src : 
 ---
 

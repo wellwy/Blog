@@ -3,7 +3,7 @@ layout: post_m
 title:  "_vscprintf, _vscwprintf"
 date:   2011-02-12 15:39:41
 categories: Win32
-summary: 
+description: 
 src : 
 ---
 

@@ -3,7 +3,7 @@ layout: post_m
 title:  "SendMessage、PostMessage原理"
 date:   2011-02-12 16:02:29
 categories: Win32
-summary: 
+description: 
 src : 
 ---
 {% raw %}

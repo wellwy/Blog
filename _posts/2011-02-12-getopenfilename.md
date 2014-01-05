@@ -3,7 +3,7 @@ layout: post_m
 title:  "打开文件通用对话框"
 date:   2011-02-12 16:40:51
 categories: Win32
-summary: 
+description: 
 src : http://www.cnblogs.com/fromchaos/archive/2009/11/29/1613289.html
 ---
 
