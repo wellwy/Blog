@@ -1,6 +1,6 @@
 ---
 layout: metro_layout
-title: Posts List
+title: Posts grouped by Categories 
 ---
 
 <div class="page " >
@@ -16,7 +16,7 @@ title: Posts List
 		    		<div class="list-group ">
 		        		<a href="" class="group-title">{{ category[0] | join: "/" }}</a>
 		        		<div class="group-content">
-			        		{% for post in category[1] limit 10 %}
+			        		{% for post in category[1] limit 100 %}
 			        			<a class="list" href="{{site.baseurl}}{{ post.url }}">
                                     <div class="list-content">
                                         <span class="list-title">{{ post.title }}</span>
