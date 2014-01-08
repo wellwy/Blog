@@ -10,27 +10,40 @@ title: 会飞de树 's Blog
         </div>
     </div>
 	<div class="page-region">
-		<div class="page-region-content">       	
+		<div class="page-region-content">  
 			<div class="listview-outlook" data-role="listview">
-				{% for category in site.categories %} 
-		    		<div class="list-group ">
+				<!-- {% for category in site.categories  %} 
+		    		<div class="list-group collapsed">
 		        		<a href="" class="group-title">{{ category[0] | join: "/" }}</a>
 		        		<div class="group-content">
 			        		{% for post in category[1] limit 100 %}
 			        			<a class="list" href="{{site.baseurl}}{{ post.url }}">
                                     <div class="list-content">
                                         <span class="list-title">{{ post.title }}</span>
-                                        <span class="list-subtitle">{{ post.date | date_to_string }}</span>
+                                        <span class="list-subtitle">{{ post.categories }} | {{ post.date | date_to_string }}</span>
                                         <span class="list-remark">{{ post.description }}</span>
                                     </div>
                                 </a>
 				        	{% endfor %}
 			        	</div>
 		    		</div>
-		    	{% endfor %}
+		    	{% endfor %} -->
+		    	{% for post in site.posts limit 50 %}
+		    	<div class="listview-outlook">
+				    <a class="list" href="{{site.baseurl}}{{ post.url }}">
+				        <div class="list-content">
+                            <span class="list-title">{{ post.title }}</span>
+                            <span class="list-subtitle">{{ post.categories }} | {{ post.date | date_to_string }}</span>
+                            <span class="list-remark">{{ post.description }}</span>
+                        </div>
+				    </a>
+				</div>
+				{% endfor %}
 			</div>
       	</div>
     </div>
 </ul>
 </div>
-<script src="{{ site.static_metro }}/js/metro/metro-listview.js"></script>
+<script src="{{ site.static_metro }}/js/metro/metro-listview2.js"></script>
+<script src="{{ site.static_metro }}/js/metro/metro-dropdown.js"></script>
+
