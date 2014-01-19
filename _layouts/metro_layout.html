@@ -58,7 +58,7 @@
 				        <nav class="sidebar  light ">
 						    <ul>
 						        <li class="title">Category</li>
-						        {% for category in site.categories  %} 
+						        {% for category in site.categories reversed  %} 
 						    		<li ><a class="dropdown-toggle" href="#">{{ category[0] | join: "/" }}</a>
 						    			<ul class="dropdown-menu" data-role="dropdown">
 					    				{% for post in category[1] limit 100 %}
