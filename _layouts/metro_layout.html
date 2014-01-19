@@ -61,7 +61,7 @@
 						        {% for category in site.categories reversed  %} 
 						    		<li ><a class="dropdown-toggle" href="#">{{ category[0] | join: "/" }}</a>
 						    			<ul class="dropdown-menu" data-role="dropdown">
-					    				{% for post in category[1] limit 100 %}
+					    				{% for post in category[1] %}
 						                	<li><a  href="{{site.baseurl}}{{ post.url }}" >{{ post.title }}</a></li>
 						                {% endfor %}
 							            </ul>
