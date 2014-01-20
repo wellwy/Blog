@@ -114,9 +114,11 @@
     </body>
     	<script type="text/javascript">
     	$(window).load(function(){
-		     $("code").addClass("prettyprint linenums ");
+		     $("pre").addClass("prettyprint linenums ");
+		     //$("code").addClass("prettyprint ");
 		     prettyPrint();
-		     $("code").attr("style","white-space:pre-wrap;white-space:-moz-pre-wrap; white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word; ");
+		     $("pre").attr("style","white-space:pre-wrap;white-space:-moz-pre-wrap; white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word; ");
+		     $("table").addClass("table bordered");
 		})
     	</script>
     	
