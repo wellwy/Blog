@@ -16,4 +16,5 @@ graphs : /Blog/include/graphs
 static_metro : http://wellwy.github.io/static/include/metro
 
 comments: true
-googleAnalytics : true
+googleAnalytics : false
+ta : true
